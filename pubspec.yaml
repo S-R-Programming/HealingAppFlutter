@@ -55,6 +55,11 @@ flutter:
     - images/arima.jpg
     - images/higashimokoto.jpg
     - images/takachiho.jpg
+    - images/aoiike.jpg
+    - images/kameiwa.jpg
+    - images/mishaka.jpg
+    - images/ginsui.jpg
+    - images/hatenohama.jpg
     - json/healing_spot.json
 
   # The following line ensures that the Material Icons font is

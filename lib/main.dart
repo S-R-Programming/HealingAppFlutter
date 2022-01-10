@@ -108,30 +108,10 @@ class _ChildPage1State extends State<_ChildPage1> {
           child: Column(
             children: [
               SizedBox(height: 50,),
-              Container(
-                  height: 180,
-                  width: 500,
-                decoration: BoxDecoration(borderRadius: BorderRadius.circular(30),),
-                  child: PageView.builder(
-                    controller: PageController(viewportFraction: 0.8),
-                    itemCount: Spots==null?0:Spots.length,
-                    itemBuilder: (_,i){
-                      return Container(
-                        height: 180,
-                        decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(30),
-                            image: DecorationImage(image: AssetImage(Spots[i]["img"]))//「images/flower_one.png」など
-                        ),
-
-                      );
-                    },
-
-                  )
-              ),
-              Text("ランニング情報"),
+              Text("おすすめ癒しスポットをご紹介！"),
               SizedBox(height: 50,),
               SizedBox(
-                height: 200,
+                height: 550,
                 width: 350,
                 child: ListView.builder( //スクロール可能な可変リストを作る
                     itemCount: Spots == null ? 0 : Spots.length, //受け取る数の定義
@@ -142,25 +122,26 @@ class _ChildPage1State extends State<_ChildPage1> {
                         child: Card(//cardデザインを定義:material_design
                             child: Row(
                                 children: <Widget>[
+                                  SizedBox(width: 10,),
 
-                                 /* Flexible(
+                                  Flexible(
                                     child: Column(
                                       children: [
-                                        Text(Spots[index]["started_at"]),
                                         Text(
                                           Spots[index]["title"],
                                           style: TextStyle(
-                                              fontSize: 15
+                                              fontSize: 20
                                           ),
                                         ),
                                       ],
                                     ),
-                                  ),*/
+                                  ),
+                                  SizedBox(width: 10,),
 
 
                                   Container(
                                     width: 90,
-                                    height: 120,
+                                    height: 200,
                                     decoration: BoxDecoration(
                                         borderRadius: BorderRadius.circular(10),
                                         image: DecorationImage( image: AssetImage(Spots[index]["img"]))
