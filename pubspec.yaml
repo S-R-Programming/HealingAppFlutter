@@ -27,6 +27,7 @@ environment:
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
 dependencies:
+  google_fonts: ^2.2.0
   flutter:
     sdk: flutter
 
@@ -60,7 +61,19 @@ flutter:
     - images/mishaka.jpg
     - images/ginsui.jpg
     - images/hatenohama.jpg
+    - images/mizutama.jpg
+    - images/music.jpg
+    - images/relax.jpg
+    - images/nature.jpg
+    - images/bio.png
+    - images/forest.png
+    - images/piano.jpg
+    - images/sleep.jpg
+    - images/mountain.jpg
+    - images/waterfall.jpg
     - json/healing_spot.json
+    - json/healing_music.json
+    - json/healing_music_tile.json
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in

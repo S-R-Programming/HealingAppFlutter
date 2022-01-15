@@ -1,0 +1,28 @@
+[
+  {
+    "img": "images/bio.png",
+    "title":"Hot Magic",
+    "composer":"Josiah Walton"
+  },
+  {
+    "img": "images/forest.png",
+    "title":"Ship in the World",
+    "composer":"Bart Volkov"
+  },
+  {
+    "img": "images/piano.jpg",
+    "title":"Thief of Doors",
+    "composer":"Cliff Hodges"
+  },
+  {
+    "img": "images/waterfall.jpg",
+    "title":"The Silent Spirit",
+    "composer":"Matthew Shoha"
+  },
+  {
+    "img": "images/mountain.jpg",
+    "title":"The Willing Lights",
+    "composer":"Ciaran Baxter"
+  }
+
+]
