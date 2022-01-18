@@ -2,6 +2,7 @@ import 'package:flutter/material.dart'; //google提供のUIデザイン
 import 'dart:async'; //非同期処理用
 import 'dart:convert';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:healing_app_flutter/play_music.dart';
 
 import 'ListTap.dart';
 
@@ -289,7 +290,7 @@ class _ChildPage2State extends State<_ChildPage2> {
                         context,
                         MaterialPageRoute(
                             builder: (context){
-                              return ListTap(image_path: MusicTile[index]["img"], title_text: MusicTile[index]["title"], content_text: MusicTile[index]["composer"],);//引数を渡せば画面遷移先で画像を表示出来る
+                              return MusicActivity(title_text: MusicTile[index]["title"], composer_text: MusicTile[index]["composer"],image_path: MusicTile[index]["img"], music_path: MusicTile[index]["music"],);//引数を渡せば画面遷移先で画像を表示出来る
                             }),
                       );
                     },
@@ -317,7 +318,7 @@ class _ChildPage2State extends State<_ChildPage2> {
                                         Text(
                                           MusicTile[index]["title"],
                                           style: GoogleFonts.notoMusic(
-                                            textStyle: TextStyle(fontSize: 20),
+                                            textStyle: TextStyle(fontSize: 20,fontWeight: FontWeight.bold),
                                           ),
                                         ),
                                         //SizedBox(height: 5,),

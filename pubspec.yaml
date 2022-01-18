@@ -28,6 +28,7 @@ environment:
 # versions available, run `flutter pub outdated`.
 dependencies:
   google_fonts: ^2.2.0
+  audioplayers: ^0.20.1
   flutter:
     sdk: flutter
 
@@ -53,6 +54,11 @@ dev_dependencies:
 # The following section is specific to Flutter.
 flutter:
   assets:
+    - assets/hidamari.mp3
+    - assets/gline.mp3
+    - assets/pianostrings.mp3
+    - assets/seizyaku.mp3
+    - assets/zikan.mp3
     - images/arima.jpg
     - images/higashimokoto.jpg
     - images/takachiho.jpg
