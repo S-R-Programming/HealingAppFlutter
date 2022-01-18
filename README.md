@@ -13,7 +13,7 @@ Android Studio (Flutter)
 <img src="https://user-images.githubusercontent.com/89324742/149989090-ae0bc8c8-da79-4e5d-a070-ba014b8a08e7.png"
      width="400px"><br><br>
 また、下のタブから「Music」を押すと、音楽のリストが表示されます。<br><br>
-   <img src="(https://user-images.githubusercontent.com/89324742/149989253-eb61fa3c-dc6f-4885-89b3-ea9276a06d8c.png"
+   <img src="https://user-images.githubusercontent.com/89324742/149989253-eb61fa3c-dc6f-4885-89b3-ea9276a06d8c.png"
         width="400px"><br><br>
 リストをタップすると音楽の再生画面が表示され、音楽を聴けます。<br><br>
 <img src = "https://user-images.githubusercontent.com/89324742/149989376-abf2d823-8e31-4d2c-8f49-cad9c788317e.png"
