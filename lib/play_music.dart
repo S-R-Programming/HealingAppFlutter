@@ -13,6 +13,8 @@ class MusicActivity extends StatelessWidget {
   AudioPlayer audioPlayer = AudioPlayer();
   AudioCache audioCache = AudioCache();
 
+
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -53,7 +55,6 @@ class MusicActivity extends StatelessWidget {
           ),
         ),
       ),
-
     );
   }
 
